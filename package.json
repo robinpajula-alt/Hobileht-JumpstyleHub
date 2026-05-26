@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "node_js": "^0.1.0"
+  },
+  "name": "hobileht-jumpstylehub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robinpajula-alt/Hobileht-JumpstyleHub.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/robinpajula-alt/Hobileht-JumpstyleHub/issues"
+  },
+  "homepage": "https://github.com/robinpajula-alt/Hobileht-JumpstyleHub#readme"
+}
