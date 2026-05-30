@@ -3,42 +3,63 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    /> 
     <link rel="stylesheet" href="../css/index.css">
     <title>Page Title</title>
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg bg-light">
-        <a class="navbar-brand" href="#intro">Jumpstyle Hub</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#"></button>
+      <!-- navbar -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-3  ">
+        <div class="container-fluid d-flex justify-content-around align-items-center">
+          <a class="navbar-brand text-primary fw-bold font-manrope" href="#intro">
+            <img src="../assets/logo2.webp" alt="Jumpstyle Hub Logo" width="50" height="45">
+            Jumpstyle Hub
+          </a>
+          <!-- navbar links -->
+          <ul class="navbar-nav d-none d-lg-flex mb-2 mb-lg-0 "> 
+            <li class="nav-item">
+              <a class="nav-link text-text" href="#history">Ajalugu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-text" href="#moves">Liigutused</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-text" href="#music">Muusika</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-text" href="#training">Treening</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-text" href="#contact">Kontakt</a>
+            </li>
+          </ul>
+          <!-- mobile menu toggle -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#"></button>
+        </div>
       </nav>
     </header>
     <main>
-      <section id="#intro" class="bg-dark">
-        <div class="container-lg py-5">
-          <div class="row justify-content-around">
-            <div class="col-md-4 text-center text-primary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste vel porro ut reprehenderit atque deleniti animi doloremque corporis! Exercitationem nobis voluptate quaerat sequi accusantium, veritatis alias aperiam expedita corporis quod ut ducimus odio, cumque porro delectus praesentium ipsam impedit quia tempora doloribus aspernatur. Dolores rem obcaecati modi sed aliquid cumque?</div>
-            <div class="col-md-5 d-flex justify-content-center">
-              <img src="../assets/logo.webp" class="img-fluid" alt="logo">
+      <!-- Intro Section -->
+      <section id="intro" class="hero-section bg-dark text-text d-flex align-items-center justify-content-center">
+        <div class="container-lg">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-md-8 col-lg-6 text-center text-text pb-10">
+              <h1 class="fw-bold text-primary font-manrope">Jumpstyle Hub</h1>
+              <h2 class="text-primary pt-3">Eesti esimene Jumpstyle'i kogukonnaleht</h2>
+              <a class="btn btn-outline-secondary btn-lg mt-10 rounded-1" href="#history">Alusta siit</a>
             </div>
           </div>
         </div>
       </section>
-      <section id="history">ajalugu, mis see on</section>
-      <section>3 liigutust</section>
-      <section>muusika playlist ja muusikast täpsemalt</section>
-      <section>Treening</section>
-      <section>kontakt form</section>
+      <section id="history" class="bg-dark text-text">ajalugu, mis see on</section>
+      <section id="moves" class="bg-dark text-text">3 liigutust</section>
+      <section id="music" class="bg-dark text-text">muusika playlist ja muusikast täpsemalt</section>
+      <section id="training" class="bg-dark text-text">Treening</section>
+      <section id="contact" class="bg-dark text-text">kontakt form</section>
     </main>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   </body>
   <footer>
-    placeholder
+    <section class="bg-dark text-text">footer content</section>
   </footer>
 </html>    
