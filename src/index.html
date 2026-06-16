@@ -3,29 +3,52 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
     <title>Page Title</title>
   </head>
   <body>
     <header>
-      <!-- navbar -->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-3  ">
-        <div class="container-fluid container-lg d-flex justify-content-around align-items-center">
-          <a class="navbar-brand text-primary fw-bold font-manrope" href="#intro">
-            <img src="../assets/logo2.webp" alt="Jumpstyle Hub Logo" width="50" height="45">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-3">
+        <div
+          class="container-fluid container-lg d-flex justify-content-around align-items-center"
+        >
+          <a
+            class="navbar-brand text-primary fw-bold font-manrope"
+            href="#intro"
+          >
+            <img
+              src="../assets/logo2.webp"
+              alt="Jumpstyle Hub Logo"
+              width="50"
+              height="45"
+            />
             Jumpstyle Hub
           </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <!-- navbar links -->
-          <div class="collapse navbar-collapse text-end text-lg-start" id="navbarNav">
+          <div
+            class="collapse navbar-collapse text-end text-lg-start"
+            id="navbarNav"
+          >
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
                 <a class="nav-link" href="#history">Ajalugu</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#moves">Liigutused</a>
+                <a class="nav-link" href="#moves">Tantsustiilid</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#music">Muusika</a>
@@ -42,27 +65,583 @@
       </nav>
     </header>
     <main>
-      <!-- Intro Section -->
-      <section id="intro" class="hero-section bg-dark text-text d-flex align-items-center justify-content-center">
+      <section
+        id="intro"
+        class="hero-section bg-dark text-text d-flex align-items-center justify-content-center"
+      >
         <div class="container-lg">
           <div class="row justify-content-center align-items-center">
             <div class="col-md-8 col-lg-6 text-center text-text pb-10">
               <h1 class="fw-bold text-primary font-manrope">Jumpstyle Hub</h1>
-              <h2 class="text-text pt-3">Eesti esimene Jumpstyle'i kogukonnaleht</h2>
-              <a class="btn btn-outline-secondary btn-lg mt-10 rounded-1" href="#history">Alusta siit</a>
+              <h2 class="text-text pt-3">
+                Eesti esimene Jumpstyle'i kogukonnaleht
+              </h2>
+              <a
+                class="btn btn-outline-secondary btn-lg mt-10 rounded-1"
+                href="#history"
+                >Alusta siit</a
+              >
             </div>
           </div>
         </div>
       </section>
-      <section id="history" class="bg-dark text-text">ajalugu, mis see on</section>
-      <section id="moves" class="bg-dark text-text">3 liigutust</section>
-      <section id="music" class="bg-dark text-text">muusika playlist ja muusikast täpsemalt</section>
-      <section id="training" class="bg-dark text-text">Treening</section>
-      <section id="contact" class="bg-dark text-text">kontakt form</section>
+      <section id="history" class="bg-dark text-text">
+        <div class="container-fluid container-xl py-5 py-md-8">
+          <div class="row justify-content-center text-center">
+            <div class="col-12 col-xl-11">
+              <h1 class="fw-bold font-manrope text-primary mb-3 mb-md-6">
+                Jumpstyle'i ajalugu ja olemus
+              </h1>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-12 col-xl-11 p-4 p-md-5 text-center">
+              <div class="row justify-content-center mb-8">
+                <div
+                  class="col-12 col-lg-10 bg-light-dark border border-secondary rounded-4 border-opacity-25 p-4 p-md-5"
+                >
+                  <h2 class="text-secondary font-manrope mb-3">
+                    Mis on Jumpstyle?
+                  </h2>
+                  <p class="mb-0 px-md-4">
+                    Jumpstyle on ülimalt energiline elektroonilise tantsumuusika
+                    saatel esitatav tantsustiil, mis koosneb rütmilistest
+                    hüpetest, jalgade ette ja taha löömisest ning kiiretest
+                    pööretest. Erinevalt paljudest teistest stiilidest
+                    tantsitakse seda täielikult "õhus" – tantsija on pidevas
+                    liikumises, hoides keharaskust ühe jala peal ja sooritades
+                    teise jalaga spetsiifilisi lööke (kick'e) täpselt rütmi
+                    taktis. See on intensiivne ja füüsiliselt nõudlik
+                    eneseväljendusviis, mis treenib koordinatsiooni.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="row justify-content-center mb-8 bg-light-dark p-3 p-md-4 pt-md-5 rounded-5 border border-secondary border-opacity-25"
+              >
+                <div class="d-none d-md-block col-md-4">
+                  <img
+                    src="../assets/jumpstyle2.webp"
+                    alt="Jumpstyle tantsija tänaval"
+                    class="img-fluid rounded"
+                  />
+                </div>
+                <div class="col-md-4">
+                  <img
+                    src="../assets/rave.webp"
+                    alt="Rave pidu"
+                    class="img-fluid rounded"
+                  />
+                </div>
+                <div class="d-none d-md-block col-md-4">
+                  <img
+                    src="../assets/jumpgroup1.webp"
+                    alt="Grupp inimesi jumpstyle'mas"
+                    class="img-fluid rounded"
+                  />
+                </div>
+              </div>
+              <div class="row justify-content-center text-start">
+                <div
+                  class="col-12 col-lg-10 bg-light-dark border border-secondary border-opacity-25 p-4 p-md-5 rounded-4"
+                >
+                  <h2 class="h4 text-secondary font-manrope mb-2">
+                    Juured ja tekkimine
+                  </h2>
+                  <p class="mb-5">
+                    Jumpstyle sai alguse 1990ndate lõpus Belgias, kust see levis
+                    kiiresti naaberriiki Hollandisse. Tants sündis
+                    elektrooniliste pidude põrandatel ja kasvas tihedalt välja
+                    just gabber- ja hardcore techno kultuurist, pakkudes
+                    noortele täiesti uut ja rütmikat eneseväljendusviisi.
+                  </p>
+                  <h2
+                    class="h4 text-secondary font-manrope mb-2 border-top border-secondary border-opacity-10 pt-5"
+                  >
+                    YouTube'i ajastu ja ülemaailmne levik
+                  </h2>
+                  <p class="mb-0">
+                    2000ndate teises pooles levis Jumpstyle plahvatuslikult tänu
+                    YouTube'i platvormi algusaegadele. Noored üle kogu maailma
+                    filmisid end tänavatel, parkides ja tagahoovides tantsimas
+                    ning laadisid videod üles. Täpselt samamoodi, puhtalt
+                    interneti ja videote kaudu, jõudis see kultuur ja tants omal
+                    ajal ka Eestisse.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="moves" class="py-4 py-md-10 bg-darker-dark text-text">
+        <div class="container-fluid container-xl">
+          <div class="row justify-content-center text-center mb-4 mb-md-6">
+            <div class="col-12 col-xl-11">
+              <h2 class="fw-bold font-manrope text-primary display-5">
+                Tantsustiilid
+              </h2>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div
+              class="col-12 col-xl-11 bg-light-dark rounded p-4 p-md-5 shadow"
+            >
+              <nav>
+                <div
+                  class="nav nav-pills flex-column flex-sm-row gap-2 mb-4"
+                  id="nav-tab"
+                  role="tablist"
+                >
+                  <button
+                    class="nav-link active font-manrope px-4 py-2 rounded text-sm-center"
+                    id="nav-oldschool-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#nav-oldschool"
+                    type="button"
+                    role="tab"
+                    aria-controls="nav-oldschool"
+                    aria-selected="true"
+                  >
+                    Oldschool
+                  </button>
+                  <button
+                    class="nav-link font-manrope px-4 py-2 rounded"
+                    id="nav-hardjump-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#nav-hardjump"
+                    type="button"
+                    role="tab"
+                    aria-controls="nav-hardjump"
+                    aria-selected="false"
+                  >
+                    Hardjump
+                  </button>
+                  <button
+                    class="nav-link font-manrope px-4 py-2 rounded"
+                    id="nav-ownstyle-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#nav-ownstyle"
+                    type="button"
+                    role="tab"
+                    aria-controls="nav-ownstyle"
+                    aria-selected="false"
+                  >
+                    Ownstyle
+                  </button>
+                </div>
+              </nav>
+              <div class="tab-content" id="nav-tabContent">
+                <div
+                  class="tab-pane fade show active"
+                  id="nav-oldschool"
+                  role="tabpanel"
+                  aria-labelledby="nav-oldschool-tab"
+                >
+                  <div class="row g-4 align-items-start">
+                    <div class="col-12 col-lg-5 text-start">
+                      <div
+                        class="bg-lighter-dark p-4 rounded border border-secondary border-opacity-10"
+                      >
+                        <h2 class="text-secondary font-manrope mb-3">
+                          Oldschool
+                        </h2>
+                        <p>
+                          Kõige algsem stiil, mis põhineb lihtsal viie sammu
+                          tehnikal. Nagu nimi, ütleb, oli see kõige esimene
+                          Jumpstyle stiil.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-12 col-lg-7">
+                      <div
+                        class="ratio ratio-16x9 rounded overflow-hidden shadow border border-secondary border-opacity-10"
+                      >
+                        <iframe
+                          src="https://www.youtube.com/embed/T8cFc_8Rp0g"
+                          title="Põhisammude video"
+                          allowfullscreen
+                        ></iframe>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="nav-hardjump"
+                  role="tabpanel"
+                  aria-labelledby="nav-hardjump-tab"
+                >
+                  <div class="row g-4 align-items-start">
+                    <div class="col-12 col-lg-5 text-start">
+                      <div
+                        class="bg-lighter-dark p-4 rounded border border-secondary border-opacity-10"
+                      >
+                        <h2 class="text-secondary font-manrope mb-3">
+                          Hardjump
+                        </h2>
+                        <p>
+                          Hardjump on jõulisem ja agressiivsem suund, kus rõhk
+                          on tugevatel ning täpselt paika pandud löökidel.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-12 col-lg-7">
+                      <div
+                        class="ratio ratio-16x9 rounded overflow-hidden shadow border border-secondary border-opacity-10"
+                      >
+                        <iframe
+                          src="https://www.youtube.com/embed/1u2V437_AbQ"
+                          title="Hardjump video"
+                          allowfullscreen
+                        ></iframe>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="nav-ownstyle"
+                  role="tabpanel"
+                  aria-labelledby="nav-ownstyle-tab"
+                >
+                  <div class="row g-4 align-items-start">
+                    <div class="col-12 col-lg-5 text-start">
+                      <div
+                        class="bg-lighter-dark p-4 rounded border border-secondary border-opacity-10"
+                      >
+                        <h2 class="text-secondary font-manrope mb-3">
+                          Ownstyle
+                        </h2>
+                        <p>
+                          Stiil, kus pannakse kaikki stiilid kokku ning
+                          lisatakse sinna oma pöörded, trikid ja liigutused.
+                          Kindlaid reegleid ei ole – igaüks teeb seda omamoodi.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-12 col-lg-7">
+                      <div
+                        class="ratio ratio-16x9 rounded overflow-hidden shadow border border-secondary border-opacity-10"
+                      >
+                        <div
+                          class="d-flex flex-column align-items-center justify-content-center bg-lighter-dark p-4 text-center"
+                        >
+                          <h2 class="fw-bold font-manrope text-text mb-1">
+                            Video on vaadatav ainult YouTube'is
+                          </h2>
+                          <p class="mb-3">
+                            Omanik on piiranud video vaatamist teistel
+                            veebilehtedel.
+                          </p>
+                          <a
+                            href="https://www.youtube.com/watch?v=6H4XpbVdCzM"
+                            target="_blank"
+                            class="button btn btn-outline-secondary rounded-2"
+                            >Vaata YouTube'ist</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="music" class="py-5 bg-dark">
+        <div class="container text-center my-7">
+          <div class="mx-auto mb-5">
+            <h1 class="fw-bold font-manrope text-primary mb-3">
+              Muusika ja selle evolutsioon
+            </h1>
+            <p class="text-text px-md-8 px-lg-10 px-xl-14">
+              Jumpstyle sai alguse gabberist ja hardcore technost, mis tegid
+              selle kõla kiireks ja raskeks. 2000ndate alguses tulid juurde
+              hardstyle'i mõjutused, mis tõid muusikasse rohkem meloodiaid.
+              Viimasel ajal on jumpstyle aga uuesti väga populaarseks muutunud
+              ja tekkinud on täiesti uus suund. See uus muusika on vanast üsna
+              erinev – kõige suurem vahe on selles, et uue jumpstyle'i
+              bassilöögid ehk kickid on palju rohkem moonutatud (distorted) ja
+              hoopis teistsuguse heliga. Mõned artistide näited on näiteks
+              ilyhiryu ja romanceplanet, kes on viinud selle stiili tänapäeva
+              veebikultuuri ja sotsiaalmeediasse.
+            </p>
+          </div>
+          <div class="row g-4 align-items-stretch text-start">
+            <div class="col-md-7">
+              <div
+                class="p-4 bg-light-dark rounded h-100 border border-secondary border-opacity-10"
+              >
+                <div
+                  class="d-flex flex-column flex-md-row justify-content-md-between align-items-md-start gap-3 mb-4"
+                >
+                  <h2 class="mb-0">
+                    <strong class="text-secondary">Vanakooli näited</strong>
+                  </h2>
+
+                  <div class="d-grid d-md-flex gap-2 gap-md-4">
+                    <a
+                      href="https://youtube.com"
+                      target="_blank"
+                      class="link-secondary link-underline link-underline-opacity-0 link-underline-opacity-100-hover link-offset-2"
+                      >Vanakooli Jumpstyle</a
+                    >
+                    <a
+                      href="https://youtube.com"
+                      target="_blank"
+                      class="link-secondary link-underline link-underline-opacity-0 link-underline-opacity-100-hover link-offset-2"
+                      >Uue ajastu Jumpstyle</a
+                    >
+                  </div>
+                </div>
+                <div
+                  class="p-3 bg-lighter-dark rounded mb-3 border border-secondary border-opacity-25"
+                >
+                  <p class="text-text mb-0">Jeckyll & Hyde - Freefall</p>
+                </div>
+                <div
+                  class="p-3 bg-lighter-dark rounded mb-3 border border-secondary border-opacity-25"
+                >
+                  <p class="text-text mb-0">Patrick Jumpen - Holiday</p>
+                </div>
+                <div
+                  class="p-3 bg-lighter-dark rounded border border-secondary border-opacity-25 mb-4"
+                >
+                  <p class="text-text mb-0">Vorwerk - Vietnam</p>
+                </div>
+                <div
+                  class="d-flex flex-column flex-sm-row justify-content-sm-between align-items-sm-center gap-3 mb-4"
+                >
+                  <h2 class="mb-0">
+                    <strong class="text-secondary">Uue ajastu näited</strong>
+                  </h2>
+                </div>
+                <div
+                  class="p-3 bg-lighter-dark rounded mb-3 border border-secondary border-opacity-25"
+                >
+                  <p class="text-text mb-0">
+                    ROMANCEPLANET - FALL FROM THE SKY PT.2
+                  </p>
+                </div>
+                <div
+                  class="p-3 bg-lighter-dark rounded mb-3 border border-secondary border-opacity-25"
+                >
+                  <p class="text-text mb-0">ilyhiryu - 0_0</p>
+                </div>
+                <div
+                  class="p-3 bg-lighter-dark rounded border border-secondary border-opacity-25 mb-4"
+                >
+                  <p class="text-text mb-0">home4circus - BLUE SKIES</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-5">
+              <div
+                class="p-4 bg-light-dark rounded d-flex flex-column justify-content-center border border-secondary border-opacity-10"
+              >
+                <div class="mb-3">
+                  <h2 class="mb-1">
+                    <strong class="text-secondary">Tempo</strong>
+                  </h2>
+                  <p class="text-text mb-0">Tavaliselt 140–150 BPM</p>
+                </div>
+                <div
+                  class="mb-3 border-top border-secondary border-opacity-10 pt-3"
+                >
+                  <h2 class="mb-1">
+                    <strong class="text-secondary">Iseloom</strong>
+                  </h2>
+                  <p class="text-text mb-0">
+                    See tempo annab muusikale iseloomuliku energia ning hüpleva,
+                    põrkuva tunnetuse.
+                  </p>
+                </div>
+                <div
+                  class="mb-3 border-top border-secondary border-opacity-10 pt-3"
+                >
+                  <h2 class="mb-1">
+                    <strong class="text-secondary">Dünaamiline rütm</strong>
+                  </h2>
+                  <p class="text-text mb-0">
+                    Muusikavalik on tohutult lai ja ühest loost teise minek võib
+                    tähendada täiesti erinevat rütmi ja tempot.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="training" class="py-5 bg-darker-dark">
+        <div class="container text-center my-7">
+          <div class="mx-auto mb-5">
+            <h1 class="display-6 fw-bold font-manrope text-primary mb-3">
+              Treening ja mõju tervisele
+            </h1>
+            <p class="text-text px-md-8 px-lg-10 px-xl-14">
+              Jumpstyle'iga alustamiseks ei ole palju vaja. Piisab tavalistest
+              tossudest ja väikesest tasasest pinnast. Asfalt on tantsimiseks
+              parim, aga hädapärast saab hakkama ka muru peal.
+            </p>
+          </div>
+          <div class="row g-4 align-items-stretch text-start">
+            <div class="col-md-7">
+              <div
+                class="p-4 bg-light-dark rounded h-100 border border-secondary border-opacity-10 d-flex flex-column justify-content-between"
+              >
+                <div>
+                  <h2 class="h4 mb-3 fw-bold text-secondary font-manrope">
+                    Minu igapäevased väljakutsed ja motivatsioon
+                  </h2>
+                  <p class="text-text mb-3">
+                    Praegu tantsin peamiselt muruplatsil keset põldu, sest
+                    privaatset asfaltkohta on keeruline leida. Ausalt öeldes on
+                    avalikult tantsimine mulle päris suur väljakutse. Eestis
+                    tundub alati, et keegi vaatab ja hindab.
+                  </p>
+                  <p class="text-text mb-4">
+                    Aga just sellepärast tahaksingi seda rohkem teha – Jumpstyle
+                    on midagi, mida ei peaks häbenema! Kui sina tunned
+                    samamoodi, siis tea, et sa ei ole ainus. Alustasin ise
+                    tavaliste vabaaja tossude ja tressidega, kuid tulevikus
+                    tahan kindlasti ka ägedama stiiliga riided hankida.
+                  </p>
+                </div>
+
+                <div>
+                  <div
+                    class="p-3 bg-lighter-dark rounded border border-secondary border-opacity-25"
+                  >
+                    <p class="text-text mb-0">
+                      <span class="text-secondary">Kokkuvõtteks:</span>
+                      Jumpstyle on suurepärane viis end väljendada ja energiat
+                      välja elada. Tantsimine aitab pea tühjaks saada ja
+                      lihtsalt hetke nautida!
+                    </p>
+                  </div>
+                  <p class="text-text mt-3 mb-0">
+                    Kui sa ei tea kust alustada, siis siin on lingid oldschool
+                    jumpstyle jaoks ja hardjump'i jaoks:
+                    <a
+                      href="https://www.youtube.com/watch?v=K-v4WukyU0o"
+                      class="text-primary text-decoration-none fw-bold"
+                      target="_blank"
+                      >oldschool jumpstyle jaoks</a
+                    >
+                    /
+                    <a
+                      href="https://www.youtube.com/watch?v=S4qhqUwSTbI&t=61s"
+                      class="text-primary text-decoration-none fw-bold"
+                      target="_blank"
+                      >hardjump'i jaoks</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-5">
+              <div
+                class="p-4 bg-light-dark rounded h-100 d-flex flex-column justify-content-center border border-secondary border-opacity-10"
+              >
+                <div class="text-center mb-3 fs-1">
+                  <i class="bi bi-lightbulb-fill text-white"></i>
+                </div>
+                <h3
+                  class="h5 fw-bold text-secondary font-manrope mb-3 text-center"
+                >
+                  Oluline nõuanne alustajale
+                </h3>
+                <p class="text-text mb-3 text-center px-2">
+                  Lindista oma tantsu ja vaata seda kõrvalt. Võrdle oma
+                  liigutusi teiste videotega – see on parim viis tehnikat
+                  parandada.
+                </p>
+                <p
+                  class="text-text mb-0 text-center px-2 fw-light border-top border-secondary border-opacity-10 pt-3 text-opacity-75"
+                >
+                  Kuid ära ole kurb, kui sa ei oska kohe alguses nii nagu
+                  profid. See kõik võtab aega!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="py-5 bg-dark text-text">
+        <div class="container py-4 py-md-5">
+          <div class="row justify-content-center text-center mb-4">
+            <div class="col-12 col-md-10 col-lg-8">
+              <h1 class="fw-bold font-manrope text-primary mb-2">
+                Võta ühendust
+              </h1>
+              <p class="text-text opacity-75">
+                Küsimusi? Täida vorm, et minuga otse ühendust võtta...
+              </p>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div
+              class="col-12 col-md-8 col-lg-6 bg-light-dark p-4 p-md-5 rounded-4 border border-secondary border-opacity-10 shadow"
+            >
+              <form>
+                <div class="mb-4">
+                  <label for="name" class="form-label text-text">Nimi</label>
+                  <input
+                    type="text"
+                    class="form-control bg-lighter-dark text-white border-0 rounded-4 py-2 px-3"
+                    id="name"
+                    placeholder="Sinu nimi..."
+                    required
+                  />
+                </div>
+                <div class="mb-4">
+                  <label for="email" class="form-label text-text"
+                    >E-posti aadress</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control bg-lighter-dark text-text border-0 rounded-4 py-2 px-3"
+                    id="email"
+                    placeholder="Sinu e-post..."
+                    required
+                  />
+                </div>
+                <div class="mb-4">
+                  <label for="message" class="form-label text-text"
+                    >Sõnum</label
+                  >
+                  <textarea
+                    class="form-control bg-lighter-dark text-text border-0 rounded-4 py-2 px-3"
+                    id="message"
+                    rows="5"
+                    placeholder="Sinu sõnum..."
+                    required
+                  ></textarea>
+                </div>
+                <div class="text-center">
+                  <button
+                    type="submit"
+                    class="btn btn-outline-secondary btn-lg rounded-2 px-4"
+                  >
+                    Saada sõnum
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <footer
+      class="bg-dark text-secondary py-4 border-top border-secondary border-opacity-10"
+    >
+      <div class="container text-center">
+        <p class="mb-1 fw-bold font-manrope text-primary">Jumpstyle Hub</p>
+        <p class="mb-0">&copy; 2026. Kõik õigused kaitstud.</p>
+      </div>
+    </footer>
   </body>
-  <footer>
-    <section class="bg-dark text-text">footer content</section>
-  </footer>
-</html>    
+</html>

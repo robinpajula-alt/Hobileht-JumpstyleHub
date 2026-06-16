@@ -1,19 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&family=Nunito+Sans:wght@300;400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&family=Nunito+Sans:wght@300;400;600;700&display=swap");
 @import "../node_modules/bootstrap/scss/functions";
 
 $primary: #c71fff;
-$secondary: #23E8AD;
-$secondary-dark: #1B9E7A;
+$secondary: #23e8ad;
+$secondary-dark: #1b9e7a;
 $dark: #242424;
+$darker-dark: #202020;
 $light-dark: #292929;
-$text: #F5F5F5;
-$font-family-base: 'Nunito Sans', sans-serif;
+$lighter-dark: #313131;
+$text: #d6d6d6;
+$font-family-base: "Nunito Sans", sans-serif;
 $font-size-base: 18 * 0.0625rem;
 $h1-font-size: 55 * 0.0625rem;
 $h2-font-size: 30 * 0.0625rem;
 
 .hero-section {
-  background-image: linear-gradient(rgba(41, 41, 41, 0.85), rgba(41, 41, 41, 0.85)), url('../assets/jumpstyle1.webp'); 
+  background-image:
+    linear-gradient(rgba(41, 41, 41, 0.85), rgba(41, 41, 41, 0.85)),
+    url("../assets/jumpstyle1.webp");
   background-size: cover;
   background-position: center;
   min-height: 100vh;
@@ -21,9 +25,11 @@ $h2-font-size: 30 * 0.0625rem;
 }
 
 $custom-theme-colors: (
-    "light-dark": $light-dark, 
-    "text": $text,
-    "secondary-dark": $secondary-dark
+  "light-dark": $light-dark,
+  "lighter-dark": $lighter-dark,
+  "darker-dark": $darker-dark,
+  "text": $text,
+  "secondary-dark": $secondary-dark,
 );
 
 $custom-spacers: (
@@ -32,11 +38,30 @@ $custom-spacers: (
   8: 6rem,
   9: 7rem,
   10: 8rem,
+  11: 9rem,
+  12: 10rem,
+  13: 11rem,
+  14: 12rem,
+  15: 15rem,
+  16: 20rem,
 );
 @import "../node_modules/bootstrap/scss/variables";
 $spacers: map-merge($spacers, $custom-spacers);
 $theme-colors: map-merge($theme-colors, $custom-theme-colors);
 @import "../node_modules/bootstrap/scss/bootstrap";
 .font-manrope {
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
+}
+
+#contact .form-control::placeholder {
+  color: #ffffff !important;
+  opacity: 0.8 !important;
+}
+
+#music a.text-secondary {
+  text-decoration: none;
+  transition: text-decoration 0.2s ease;
+  &:hover {
+    text-decoration: underline;
+  }
 }
